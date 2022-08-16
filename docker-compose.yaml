@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  sujiwebapp:
+    image: sujimobi.web:appvq
+    build: .
+    container_name: sujiwebc1
+    ports:
+      - 1513:80
+    restart: always
